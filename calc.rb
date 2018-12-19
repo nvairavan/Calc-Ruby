@@ -19,3 +19,11 @@ elsif operator == "*"
 elsif operator == "/"
   puts result = x % y
 end
+
+puts "For advanced operator enter ** or sqrt : "
+ad_op = gets.chomp
+if ad_op == **
+  puts result = x ** y
+elsif ad_op = sqrt
+  puts result = math.sqrt(x)
+end
