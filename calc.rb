@@ -22,8 +22,10 @@ end
 
 puts "For advanced operator enter ** or sqrt : "
 ad_op = gets.chomp
-if ad_op == **
-  puts result = x ** y
-elsif ad_op = sqrt
-  puts result = math.sqrt(x)
+if ad_op == "**"
+  puts "Num1 to the power of Num2 is #{x ** y}."
+  puts "Num2 to the power of Num1 is #{y ** x}."
+elsif ad_op = "sqrt"
+  puts "Square root of Num1, #{(Math.sqrt(x))}."
+  puts "Square root of Num2, #{(Math.sqrt(y))}."
 end
